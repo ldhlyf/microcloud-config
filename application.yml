@@ -1,14 +1,14 @@
 spring: 
-	profiles: 
-		active: 
-		-dev
+  profiles: 
+    active: 
+       -dev
 ---		
 spring: 
-	profiles: dev
-	application:  
-		name: microcloud-config-lyf-dev
+  profiles: dev
+  application:  
+     name: microcloud-config-lyf-dev
 ---		
 spring: 
-	profiles: test
-	application: 
-		name: microcloud-config-lyf-test
+  profiles: test
+  application: 
+    name: microcloud-config-lyf-test
